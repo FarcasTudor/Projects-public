@@ -1,0 +1,21 @@
+rootProject.name = "Projects"
+include("Day1")
+include("Day2")
+include("Day2")
+include("Day3")
+include("Day4")
+include("Day5")
+include("Day8")
+include("Day9")
+include("Day10")
+include("Day10:src:jmh")
+findProject(":Day10:src:jmh")?.name = "jmh"
+include("Day10")
+include("Day10:src:jmh")
+findProject(":Day10:src:jmh")?.name = "jmh"
+include("Day11")
+include("Day12")
+include("Day13")
+include("Day14")
+include("Day16-20")
+include("Day16-20")
